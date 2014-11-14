@@ -1,0 +1,33 @@
+
+img {
+	max-width: 100%;
+}
+
+a { 
+    text-decoration: none;
+    color: #000;
+	
+	&:visited { 
+    text-decoration: none; 
+    color: #000;
+	}
+	
+	&:hover { 
+    text-decoration: none; 
+	}
+	
+	&:focus { 
+    text-decoration: none; 
+	}
+	
+	&:active { 
+    text-decoration: none; 
+	}
+}
+	
+	
+	
+
+
+
+

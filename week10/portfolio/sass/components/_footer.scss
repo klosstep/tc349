@@ -1,0 +1,35 @@
+
+.footer { 
+	background: #363636;
+	width: auto;
+	padding: 60px 0 60px 0;
+	
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+	}
+	
+	li {
+	display: inline;
+	}	
+}
+
+.externals {
+	float: left;
+	display: block;
+	margin:0px 0 0 0;
+	position: relative;
+}
+
+.icons{
+	padding-right: 5px;
+}
+
+.copyright {
+	float: right;
+	display: block;
+	font-family: 'Special Elite', cursive;
+	color: #fff;	
+}

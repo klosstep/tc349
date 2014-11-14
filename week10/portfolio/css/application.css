@@ -1,0 +1,147 @@
+/* line 2, ../sass/components/_header.scss */
+.firstbg {
+  background: url("purp.jpg") no-repeat;
+}
+
+/* line 8, ../sass/components/_header.scss */
+.header-main {
+  background-color: #fff;
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  margin-top: 0px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+/* line 18, ../sass/components/_header.scss */
+.content1 {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  padding: 60px 15px 15px 15px;
+}
+/* line 24, ../sass/components/_header.scss */
+.content1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+/* line 32, ../sass/components/_header.scss */
+.bio {
+  margin-top: 40px;
+}
+/* line 36, ../sass/components/_header.scss */
+.bio h2 {
+  text-align: center;
+  color: #fff;
+}
+
+/* line 42, ../sass/components/_header.scss */
+.description {
+  color: #fff;
+  text-align: center;
+  margin: 40px 0px 80px 0px;
+}
+
+/* line 1, ../sass/components/_projects.scss */
+.secondbg {
+  background: #000;
+}
+
+/* line 5, ../sass/components/_projects.scss */
+.port {
+  margin: 0 0 40px 0;
+}
+/* line 8, ../sass/components/_projects.scss */
+.port h2 {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/* line 14, ../sass/components/_projects.scss */
+.port img {
+  display: block;
+}
+/* line 18, ../sass/components/_projects.scss */
+.port li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+/* line 25, ../sass/components/_projects.scss */
+.port ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* line 2, ../sass/components/_footer.scss */
+.footer {
+  background: #363636;
+  width: auto;
+  padding: 60px 0 60px 0;
+}
+/* line 7, ../sass/components/_footer.scss */
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 14, ../sass/components/_footer.scss */
+.footer li {
+  display: inline;
+}
+
+/* line 19, ../sass/components/_footer.scss */
+.externals {
+  float: left;
+  display: block;
+  margin: 0px 0 0 0;
+  position: relative;
+}
+
+/* line 26, ../sass/components/_footer.scss */
+.icons {
+  padding-right: 5px;
+}
+
+/* line 30, ../sass/components/_footer.scss */
+.copyright {
+  float: right;
+  display: block;
+  font-family: 'Special Elite', cursive;
+  color: #fff;
+}
+
+/* line 2, ../sass/components/_links.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 6, ../sass/components/_links.scss */
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 10, ../sass/components/_links.scss */
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+/* line 15, ../sass/components/_links.scss */
+a:hover {
+  text-decoration: none;
+}
+/* line 19, ../sass/components/_links.scss */
+a:focus {
+  text-decoration: none;
+}
+/* line 23, ../sass/components/_links.scss */
+a:active {
+  text-decoration: none;
+}
