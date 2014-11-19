@@ -13,14 +13,19 @@
   font-family: 'Special Elite', cursive;
   text-align: center;
 }
+/* line 17, ../sass/components/_header.scss */
+.header-main h1 {
+  font-size: 40px;
+  margin: 15px 0 15px 0;
+}
 
-/* line 18, ../sass/components/_header.scss */
+/* line 23, ../sass/components/_header.scss */
 .content1 {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 10px;
   padding: 60px 15px 15px 15px;
 }
-/* line 24, ../sass/components/_header.scss */
+/* line 29, ../sass/components/_header.scss */
 .content1 img {
   display: block;
   margin-left: auto;
@@ -28,17 +33,18 @@
   border-radius: 5px;
 }
 
-/* line 32, ../sass/components/_header.scss */
+/* line 37, ../sass/components/_header.scss */
 .bio {
   margin-top: 40px;
 }
-/* line 36, ../sass/components/_header.scss */
+/* line 41, ../sass/components/_header.scss */
 .bio h2 {
   text-align: center;
   color: #fff;
+  font-size: 32px;
 }
 
-/* line 42, ../sass/components/_header.scss */
+/* line 48, ../sass/components/_header.scss */
 .description {
   color: #fff;
   text-align: center;
@@ -59,19 +65,20 @@
   color: #fff;
   padding: 10px;
   text-align: center;
+  font-size: 32px;
 }
-/* line 14, ../sass/components/_projects.scss */
+/* line 15, ../sass/components/_projects.scss */
 .port img {
   display: block;
 }
-/* line 18, ../sass/components/_projects.scss */
+/* line 19, ../sass/components/_projects.scss */
 .port li {
   float: left;
   width: 25%;
   margin: 0;
   padding: 0;
 }
-/* line 25, ../sass/components/_projects.scss */
+/* line 26, ../sass/components/_projects.scss */
 .port ul {
   list-style-type: none;
   margin: 0;
@@ -107,10 +114,18 @@
 
 /* line 26, ../sass/components/_footer.scss */
 .icons {
-  padding-right: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 40px;
+  background: none repeat scroll 0% 0% #FFF;
+  border-radius: 5px;
+}
+/* line 34, ../sass/components/_footer.scss */
+.icons:hover {
+  color: #4f055a;
 }
 
-/* line 30, ../sass/components/_footer.scss */
+/* line 40, ../sass/components/_footer.scss */
 .copyright {
   float: right;
   display: block;
