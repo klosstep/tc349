@@ -16,19 +16,39 @@
 	display: block;
 	}
 	
-	li {
-	float: left;
-	width: 25%;
-	margin: 0;
-	padding: 0;
-	}
-	
 	ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 	} 	
+	
+	li {
+	float: left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+		
+		.box {
+		width: 100%;
+		position: absolute; 
+		padding: .5em;
+		bottom:-60px;
+		left: 0;
+		-webkit-transition: bottom  ease-out 200ms;
+		-moz-transition: bottom  ease-out 200ms;
+		-o-transition: bottom  ease-out 200ms;
+		transition: bottom  ease-out 200ms;
+		color: #fff;
+		}
+		
+		&:hover .box {
+		bottom: 0;
+		background: rgba(0,0,0, .5);
+		}
+	}
 }
 
 
