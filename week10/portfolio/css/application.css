@@ -78,10 +78,9 @@
   padding: 0;
   text-align: center;
 }
-/* line 26, ../sass/components/_projects.scss */
+/* line 27, ../sass/components/_projects.scss */
 .port li {
   float: left;
-  width: 25%;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -179,4 +178,33 @@ a:focus {
 /* line 23, ../sass/components/_links.scss */
 a:active {
   text-decoration: none;
+}
+
+/* Extra small devices  */
+@media (max-width: 768px) {
+  /* line 6, ../sass/components/_responsive.scss */
+  .port li {
+    width: 50%;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* line 17, ../sass/components/_responsive.scss */
+  .port li {
+    width: 50%;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* line 28, ../sass/components/_responsive.scss */
+  .port li {
+    width: 33.333333333333%;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* line 39, ../sass/components/_responsive.scss */
+  .port li {
+    width: 25%;
+  }
 }
