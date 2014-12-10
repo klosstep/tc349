@@ -1,0 +1,268 @@
+/* line 1, ../sass/components/_header.scss */
+.header-main {
+  background-color: #2E7F31;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 5px 5px #888;
+  overflow: hidden;
+}
+/* line 8, ../sass/components/_header.scss */
+.header-main .logo {
+  dislpay: inline-block;
+  margin-left: 20px;
+  clear: both;
+}
+/* line 13, ../sass/components/_header.scss */
+.header-main .logo img {
+  width: 125px;
+  float: left;
+}
+/* line 18, ../sass/components/_header.scss */
+.header-main .logo ul {
+  list-style-type: none;
+  list-style-position: inside;
+  text-align: center;
+  overflow: hidden;
+  float: right;
+  margin: 25px 10px 0 10px;
+  padding: 0px;
+}
+/* line 27, ../sass/components/_header.scss */
+.header-main .logo ul li:first-child {
+  padding-left: 0px;
+}
+/* line 31, ../sass/components/_header.scss */
+.header-main .logo ul li {
+  display: inline-block;
+  padding-left: 1.5em;
+  font-family: 'Karla', sans-serif;
+}
+/* line 36, ../sass/components/_header.scss */
+.header-main .logo ul li a {
+  color: #000;
+}
+/* line 39, ../sass/components/_header.scss */
+.header-main .logo ul li a:active {
+  color: #fff;
+}
+/* line 43, ../sass/components/_header.scss */
+.header-main .logo ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer-main {
+  width: 100%;
+  overflow: hidden;
+  background: url("logs.jpg") no-repeat;
+  bottom: 0px;
+}
+/* line 7, ../sass/components/_footer.scss */
+.footer-main img {
+  width: 100%;
+}
+/* line 11, ../sass/components/_footer.scss */
+.footer-main .externals {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  margin: auto;
+  bottom: 0px;
+  overflow: hidden;
+}
+/* line 19, ../sass/components/_footer.scss */
+.footer-main .externals ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 5px 0 0;
+  float: left;
+  margin: 75px 0 0 25px;
+}
+/* line 26, ../sass/components/_footer.scss */
+.footer-main .externals ul li {
+  display: inline-block;
+}
+/* line 29, ../sass/components/_footer.scss */
+.footer-main .externals ul li .icons {
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 10px 0;
+  font-size: 40px;
+  background: none repeat scroll 0% 0% #FFF;
+  border-radius: 5px;
+  color: #000;
+}
+/* line 37, ../sass/components/_footer.scss */
+.footer-main .externals ul li .icons:hover {
+  color: #2E7F31;
+}
+/* line 47, ../sass/components/_footer.scss */
+.footer-main .externals .contact {
+  color: #fff;
+  float: right;
+  margin: 20px 75px 20px 0;
+  text-align: center;
+}
+/* line 53, ../sass/components/_footer.scss */
+.footer-main .externals .contact h4 {
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/components/_photos.scss */
+body {
+  background-color: #f0f0f0;
+}
+
+/* line 5, ../sass/components/_photos.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 9, ../sass/components/_photos.scss */
+.port {
+  margin: 50px 0 100px 0;
+}
+/* line 12, ../sass/components/_photos.scss */
+.port img {
+  display: block;
+}
+/* line 16, ../sass/components/_photos.scss */
+.port ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 23, ../sass/components/_photos.scss */
+.port li {
+  float: left;
+  margin: 0;
+  padding: 1px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+}
+/* line 31, ../sass/components/_photos.scss */
+.port li .box {
+  width: 100%;
+  position: absolute;
+  padding: .5em;
+  bottom: -60px;
+  left: 0;
+  -webkit-transition: bottom  ease-out 200ms;
+  -moz-transition: bottom  ease-out 200ms;
+  -o-transition: bottom  ease-out 200ms;
+  transition: bottom  ease-out 200ms;
+  color: #fff;
+}
+/* line 44, ../sass/components/_photos.scss */
+.port li:hover .box {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Extra small devices  */
+@media (max-width: 768px) {
+  /* line 6, ../sass/components/_responsive.scss */
+  .port li {
+    width: 50%;
+  }
+
+  /* line 13, ../sass/components/_responsive.scss */
+  .header-main .logo img {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* line 27, ../sass/components/_responsive.scss */
+  .port li {
+    width: 50%;
+  }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* line 38, ../sass/components/_responsive.scss */
+  .port li {
+    width: 33.333333333333%;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* line 49, ../sass/components/_responsive.scss */
+  .port li {
+    width: 25%;
+  }
+}
+/* line 1, ../sass/components/_peninsulas.scss */
+body {
+  background-color: #e0e0e0;
+}
+
+/* line 5, ../sass/components/_peninsulas.scss */
+.frame {
+  font-family: 'Karla', sans-serif;
+  width: 100%;
+  padding: 25px;
+  margin: 20px 0 20px 0;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: -5px 0px 5px #888888;
+}
+/* line 14, ../sass/components/_peninsulas.scss */
+.frame .intro {
+  text-align: center;
+}
+/* line 17, ../sass/components/_peninsulas.scss */
+.frame .intro p {
+  font-size: 16px;
+}
+/* line 21, ../sass/components/_peninsulas.scss */
+.frame .intro h1 {
+  font-size: 40px;
+}
+/* line 25, ../sass/components/_peninsulas.scss */
+.frame .intro h3 {
+  line-height: 125%;
+}
+/* line 30, ../sass/components/_peninsulas.scss */
+.frame .intro img {
+  border-radius: 5px;
+}
+/* line 36, ../sass/components/_peninsulas.scss */
+.frame .place {
+  overflow: hidden;
+  background-color: #a0a0a0;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 25px;
+  clear: both;
+}
+/* line 44, ../sass/components/_peninsulas.scss */
+.frame .place h2 {
+  font-size: 36px;
+}
+/* line 48, ../sass/components/_peninsulas.scss */
+.frame .place .view {
+  float: left;
+}
+/* line 50, ../sass/components/_peninsulas.scss */
+.frame .place .view img {
+  border-radius: 5px;
+  display: block;
+}
+/* line 55, ../sass/components/_peninsulas.scss */
+.frame .place .desc {
+  float: left;
+  margin: 0 25px 0 25px;
+}
+/* line 59, ../sass/components/_peninsulas.scss */
+.frame .place .desc ul {
+  float: left;
+  font-size: 16px;
+}
+/* line 63, ../sass/components/_peninsulas.scss */
+.frame .place .desc ul li {
+  line-height: 300%;
+}

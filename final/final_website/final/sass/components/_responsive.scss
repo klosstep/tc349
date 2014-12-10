@@ -1,0 +1,53 @@
+/* Extra small devices  */
+@media (max-width: 768px) {
+	
+	.port {
+			
+		li {
+		width: 50%;
+		}
+	}
+	
+	.header-main {
+		.logo {
+			img{
+				margin-left:50%;
+				margin-right: 50%;
+				
+			}
+		}
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	.port {
+			
+		li {
+		width: 50%;
+		}
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	.port {
+			
+		li {
+		width: 33.333333333333%;
+		}
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.port {
+		
+		li {
+		width: 25%;
+		}
+	}
+}

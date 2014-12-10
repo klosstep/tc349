@@ -1,0 +1,49 @@
+body {
+	background-color: #f0f0f0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.port {
+	margin: 50px 0 100px 0;
+	
+	img {
+		display: block;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	} 	
+	
+	li {
+		float: left;
+		margin: 0;
+		padding: 1px;
+		overflow: hidden;
+		position: relative;
+		display: inline-block;
+		
+		.box {
+			width: 100%;
+			position: absolute; 
+			padding: .5em;
+			bottom:-60px;
+			left: 0;
+			-webkit-transition: bottom  ease-out 200ms;
+			-moz-transition: bottom  ease-out 200ms;
+			-o-transition: bottom  ease-out 200ms;
+			transition: bottom  ease-out 200ms;
+			color: #fff;
+		}
+		
+		&:hover .box {
+			bottom: 0;
+			background: rgba(0,0,0, .5);
+		}
+	}
+}
